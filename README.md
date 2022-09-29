@@ -1,5 +1,5 @@
 # fuwu
-简单服务管理
+简单服务管理（fuwu five 555）
 
 ## 功能
 
@@ -8,14 +8,14 @@
 - status serverName
 - restart serverName (close and start)
 - list (show all serverName and status is running)
-- refresh (refresh server list)
+- refresh (read fuwu.yml and refresh server list)
 
 - server (-log) start daemon server
 
 ## 核心服务
 
 - http 守护进程服务 (核心服务失败重启)
-- 开放端口提供 api 操作
+- 开放端口 555 提供 api 操作
 - 服务跟随启动
 - 服务失败自动重启
 - 服务日志管理
